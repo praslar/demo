@@ -1,0 +1,35 @@
+gen:
+  success:
+    code: 1001
+    status: 200
+    message: "Success"
+
+  not_found:
+    code: 1002
+    status: 404
+    message: "Not found"
+
+  timeout:
+    code: 1003
+    status: 500
+    message: "Timeout"
+
+  bad_request:
+    code: 1004
+    status: 400
+    message: "Invalid input"
+
+  internal:
+    code: 1005
+    status: 500
+    message: "Internal server error"
+
+  unauthorized:
+    code: 1006
+    status: 401
+    message: "Authorization required"
+
+  database:
+    code: 1007
+    status: 500
+    message: "Database error"

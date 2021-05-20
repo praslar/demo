@@ -1,0 +1,5 @@
+postgres_data
+docker-compose.yml
+lastupdate.tmp
+.idea
+*.exe
